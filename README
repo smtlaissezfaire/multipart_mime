@@ -1,4 +1,4 @@
-MultipartMime
+MultiPartMime
 =============
 
 Net::HTTP does not have native support for multi-part mime attachments.  This plugin adds the support
