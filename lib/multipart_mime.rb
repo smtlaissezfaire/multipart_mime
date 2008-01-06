@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'net/https' unless Object.const_get(:Net) && Net.const_get(:HTTP)
+require 'net/http' unless Object.const_defined?(:Net) && Net.const_defined?(:HTTP)
 require 'mime/types'
 require 'base64'
 require 'cgi'
